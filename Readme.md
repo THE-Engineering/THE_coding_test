@@ -2,7 +2,7 @@
 
 At Time Higher Education our aim is give the best insights we can into higher education for both students and academics. In this test, we'd like to give you a taste of that and give you the opportunity to show us how you could improve this
 
-In this repository we've given you some dummy data about some higher education institutions and what data the could have submitted to us. What we would like you to do is take this data and do something interesting with it; there are some suggestions below to inspire you but feel free to use your imagination.
+In this repository we've given you some dummy data about some higher education institutions and example submission data. What we would like you to do is take this data and do something interesting with it; there are some suggestions below to inspire you but feel free to use your imagination.
 
 The aim is to have something to show and talk about in the technical interview, particularly around how you chose to solve the problem, what limitations it may have, and what the code looks like to achieve it.
 
