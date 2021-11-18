@@ -23,6 +23,7 @@
     "@babel/preset-env": "~7.16.4",
     "@babel/register": "~7.16.0",
     "body-parser": "~1.19.0",
+    "cors": "~2.8.5",
     "express": "~4.17.1",
     "nodemon": "~2.0.15",
     "regenerator-runtime": "~0.13.9"
@@ -36,6 +37,8 @@
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
-    "setupFilesAfterEnv": ["./test-setup.js"]
+    "setupFilesAfterEnv": [
+      "./test-setup.js"
+    ]
   }
 }
