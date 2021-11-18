@@ -1,0 +1,41 @@
+{
+  "name": "the_coding_test_server",
+  "version": "1.0.0",
+  "description": "At Time Higher Education our aim is give the best insights we can into higher education for both students and academics. In this test, we'd like to give you a taste of that and give you the opportunity to show us how you could improve this",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "jest src --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THE-Engineering/THE_coding_test.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/THE-Engineering/THE_coding_test/issues"
+  },
+  "homepage": "https://github.com/THE-Engineering/THE_coding_test#readme",
+  "dependencies": {
+    "@babel/cli": "~7.16.0",
+    "@babel/core": "~7.16.0",
+    "@babel/node": "~7.16.0",
+    "@babel/preset-env": "~7.16.4",
+    "@babel/register": "~7.16.0",
+    "body-parser": "~1.19.0",
+    "express": "~4.17.1",
+    "nodemon": "~2.0.15",
+    "regenerator-runtime": "~0.13.9"
+  },
+  "devDependencies": {
+    "babel-jest": "~27.3.1",
+    "jest": "~27.3.1",
+    "supertest": "~6.1.6"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "setupFilesAfterEnv": ["./test-setup.js"]
+  }
+}
