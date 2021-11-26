@@ -15,7 +15,7 @@ We've provided you with:
 - A basic client app boostrapped using [Create React App](https://github.com/facebook/create-react-app). See [`./client/README.md`](./client/README.md) for more info.
 - A basic server using Express with [BabelJS](https://babeljs.io) preconfigured and a basic test. See [`./server/README.md`](./server/README.md) for more info.
 - A `.nvmrc` file to set the Node version using [NVM](https://github.com/nvm-sh/nvm). You can use a different Node version if you wish, the scaffolding has been created and tested using `v16.13.0`.
-- A `docker-compose.yml` file to start a Postgres database, you can use a local database if you'd prefer.
+- A `docker-compose.yml` file to start a Postgres database. You can use a local database if you'd prefer, please use a relational database.
 
 ## Example Data
 
@@ -39,6 +39,8 @@ You are free to use any tools or libraries you see fit, the only expectation is 
 3. Add the ability to sort institutions by name or country.
 4. Enhance the page you created in step 2 so that when a user clicks on an institution name the UI lists the submissions for that institution.
 5. For each institution, show a basic graph that visualises their income over time (for each year they have submitted data). You may wish to create some more fake data to give you some more interesting graphs.
+
+*If we have asked you to focus on the front-end, please use [json-server](https://github.com/typicode/json-server) as your API using the data exported from `./example-data/db.js`, this will hopefully be as simple as running `npx json-server  example-data/db.js`*
 
 ## Follow up
 
